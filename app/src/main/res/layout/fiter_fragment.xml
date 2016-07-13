@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/kinds_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffeeeeee"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/kinds_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="9dp"
+                    android:layout_height="14dp"
+                    android:layout_alignTop="@+id/kind_tv"
+                    android:layout_toStartOf="@+id/kind_tv"
+                    android:drawableLeft="@drawable/bt_calendar_last" />
+
+                <TextView
+                    android:id="@+id/kind_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="类别" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B2B2B2" />
+
+        <RelativeLayout
+            android:id="@+id/kinds_emue_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <TextView
+                android:id="@+id/get_monkey_tv"
+                android:layout_width="9dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/bt_calendar_last" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="提款记录"
+                android:id="@+id/textView2"
+                android:layout_alignTop="@+id/get_monkey_tv"
+                android:layout_toEndOf="@+id/get_monkey_tv" />
+
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="30dp"
+                android:drawableLeft="@drawable/bt_calendar_last"
+                android:layout_alignTop="@+id/pay_monkey_tv"
+                android:layout_toStartOf="@+id/pay_monkey_tv"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="还款记录"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="64dp"
+                android:id="@+id/pay_monkey_tv" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B2B2B2" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffeeeeee"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/popupwindow_calendar_last_month"
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="9dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bt_calendar_last" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/popupwindow_calendar_month"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#aa564b4b"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:id="@+id/popupwindow_calendar_next_month"
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/popupwindow_calendar_last_month">
+
+                <TextView
+                    android:layout_width="9dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/bt_calendar_next" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.demo.SearchFilter.KCalendar
+            android:id="@+id/popupwindow_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp">
+
+        </com.demo.SearchFilter.KCalendar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbcc3333" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

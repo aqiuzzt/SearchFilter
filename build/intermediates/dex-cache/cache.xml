@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_7f31b66e2cdc2ee9c3a27d8d69dd4d7521be7e3f/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_51601a3cad9fa69b2e5a62d9dfeb23c465a5a56c/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_ca7eaf0d3ebdd4b666465473c80a6b72f09ac96f/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_bf5c8c191be92a617c87aa21b99b3231dce49969/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6a118435efeac5cadc00fca5073368bdbe42c8fa">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20590eee54672c951f66abd364191d78b81a4bb4/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/zhengting/tool/android_studio/android-sdk_r24.1.2-linux/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1b418e76f06a512da79b222c2bcfe929bb5ac3b5/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_c414627e7b340f460b85fc4866edf50ed20f7c0c/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhou/下载/SearchFilter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0b3ef277550a3ae62f6ea5952c476e52b4ab842d">
+        <dex dex="/home/zhou/下载/SearchFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_816efd0374dc48039fd0e7b8ee18ef93f2f79d2a/classes.dex" />
+    </item>
+
+</items>

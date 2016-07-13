@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvFilterName" android:text="品牌"
+        android:layout_width="wrap_content" android:textSize="15sp"
+        android:layout_height="wrap_content" android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+
+
+    <TextView
+        android:id="@+id/tvAll" android:text="全部"
+        android:layout_width="wrap_content" android:textSize="15sp"
+        android:layout_height="wrap_content" android:textColor="@android:color/darker_gray"
+        android:layout_toLeftOf="@+id/ivRight" android:layout_marginTop="14dp"
+        />
+
+    <ImageView android:id="@+id/ivRight"
+         android:layout_width="20dp" android:layout_marginLeft="5dp"
+         android:layout_height="20dp" android:src="@drawable/ic_right"
+         android:layout_alignParentRight="true" android:layout_marginTop="12dp"
+         android:layout_marginRight="12dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_below="@+id/ivRight" android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp" android:layout_marginLeft="12dp"/>
+
+</RelativeLayout>
