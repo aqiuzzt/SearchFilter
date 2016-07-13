@@ -10,7 +10,7 @@
 If you have any problems, please write issues to me.
 
 
-![Screenshot_20160713-101032.png](https://github.com/zhouzhengting/SearchFilter/master/blob/Screenshot_20160713-101032.png)
-![Screenshot_20160713-101043.png](https://github.com/zhouzhengting/SearchFilter/master/blob/Screenshot_20160713-101043.png)
+![Screenshot_20160713-101032.png](https://github.com/zhouzhengting/SearchFilter/blob/master/Screenshot_20160713-101032.png)
+![Screenshot_20160713-101043.png](https://github.com/zhouzhengting/SearchFilter/blob/master/Screenshot_20160713-101043.png)
 
 
