@@ -4,7 +4,7 @@
 ## Features
 1, 使用DrawerLayout实现。</br>
 2，里面嵌套日历。</br>
-3，可以开启绘制路径隐藏模式。</br>
+
 
 ## Problems
 If you have any problems, please write issues to me.
