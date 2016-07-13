@@ -1,2 +1,16 @@
 # SearchFilter
-侧边筛选，类似京东的效果
+侧边筛选简单实现，类似京东的效果
+
+## Features
+1, 使用DrawerLayout实现。</br>
+2，里面嵌套日历。</br>
+3，可以开启绘制路径隐藏模式。</br>
+
+## Problems
+If you have any problems, please write issues to me.
+
+
+![Screenshot_20160713-101032.png](https://github.com/zhouzhengting/SearchFilter/master/Screenshot_20160713-101032.png)
+![Screenshot_20160713-101043.png](https://github.com/zhouzhengting/SearchFilter/master/Screenshot_20160713-101043.png)
+
+
